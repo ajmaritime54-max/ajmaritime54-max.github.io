@@ -20,48 +20,48 @@
         nav ul{list-style:none;display:flex;justify-content:center;gap:2rem;flex-wrap:wrap}
         nav a{color:white;text-decoration:none;font-weight:500;transition:color .3s}
         nav a:hover{color:#f39c12}
-        .hero{background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%23c4a572" width="1200" height="400"/><path fill="%23a58757" d="M0 300 Q300 250 600 300 T1200 300 V400 H0Z"/></svg>');background-size:cover;background-position:center;padding:4rem 0;text-align:center;color:white}
-        .hero h2{font-size:2.5rem;margin-bottom:1rem;text-shadow:2px 2px 4px rgba(0,0,0,0.5)}
-        .hero p{font-size:1.3rem;margin-bottom:2rem;text-shadow:1px 1px 2px rgba(0,0,0,0.5)}
+        .hero{background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('dredging-1.jpg');background-size:cover;background-position:center;padding:10rem 0;text-align:center;color:white}
+        .hero h2{font-size:3rem;margin-bottom:1rem;text-shadow:2px 2px 8px rgba(0,0,0,0.7)}
+        .hero p{font-size:1.5rem;margin-bottom:2rem;text-shadow:1px 1px 4px rgba(0,0,0,0.7)}
         .services,.gallery,.about{padding:4rem 0}
         .services{background:#f8f9fa}
-        .section-title{text-align:center;font-size:2.2rem;margin-bottom:3rem;color:#1a5490}
-        .service-grid,.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}
-        .gallery-grid{margin-top:2rem;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
-        .service-card,.gallery-item{background:white;padding:2rem;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.1);transition:transform .3s}
-        .service-card:hover,.gallery-item:hover{transform:translateY(-5px);box-shadow:0 8px 25px rgba(0,0,0,0.15)}
-        .gallery-item{position:relative;overflow:hidden}
+        .section-title{text-align:center;font-size:2.5rem;margin-bottom:3rem;color:#1a5490}
+        .service-grid,.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}
+        .gallery-grid{margin-top:2rem}
+        .gallery-item{position:relative;overflow:hidden;border-radius:12px;box-shadow:0 8px 25px rgba(0,0,0,0.2);transition:transform .4s}
         .gallery-item:hover{transform:scale(1.05)}
-        .gallery-item img{width:100%;height:300px;object-fit:cover}
-        .gallery-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,0.8));color:white;padding:2rem 1rem 1rem;font-weight:600}
-        .service-icon{font-size:3rem;margin-bottom:1rem}
-        .service-card h3{color:#1a5490;margin-bottom:1rem;font-size:1.5rem}
+        .gallery-item img{width:100%;height:320px;object-fit:cover;display:block}
+        .gallery-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,0.9));color:white;padding:2rem 1rem 1rem;font-weight:700;font-size:1.2rem}
+        .service-card{background:white;padding:2.5rem;border-radius:12px;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;transition:transform .3s}
+        .service-card:hover{transform:translateY(-10px)}
+        .service-icon{font-size:4rem;margin-bottom:1rem}
+        .service-card h3{color:#1a5490;margin:1rem 0;font-size:1.6rem}
         .about-content{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-        .about-text h3{color:#1a5490;margin-bottom:1rem;font-size:1.8rem}
+        .about-text h3{color:#1a5490;margin-bottom:1rem;font-size:1.9rem}
         .about-text ul{list-style:none;margin-top:1.5rem}
-        .about-text li{padding:.5rem 0 .5rem 1.5rem;position:relative}
-        .about-text li:before{content:"✓";position:absolute;left:0;color:#27ae60;font-weight:bold}
-        .contact{padding:4rem 0;background:linear-gradient(135deg,#1a5490 0%,#2980b9 100%);color:white}
+        .about-text li{padding:.7rem 0 .7rem 2rem;position:relative}
+        .about-text li:before{content:"Checkmark";position:absolute;left:0;color:#27ae60;font-weight:bold}
+        .contact{padding:5rem 0;background:linear-gradient(135deg,#1a5490 0%,#2980b9 100%);color:white}
         .contact .section-title{color:white}
-        .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:800px;margin:0 auto}
+        .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:900px;margin:0 auto}
         .form-group{display:flex;flex-direction:column}
         .form-group.full-width{grid-column:1/-1}
-        label{margin-bottom:.5rem;font-weight:500}
-        input,textarea,select{padding:.8rem;border:none;border-radius:5px;font-size:1rem;font-family:inherit}
-        textarea{resize:vertical;min-height:120px}
-        button{background:#f39c12;color:white;padding:1rem 2rem;border:none;border-radius:5px;font-size:1.1rem;font-weight:bold;cursor:pointer;transition:background .3s}
+        label{margin-bottom:.5rem;font-weight:600;font-size:1.1rem}
+        input,textarea,select{padding:1rem;border:none;border-radius:8px;font-size:1.1rem}
+        textarea{min-height:140px}
+        button{background:#f39c12;color:white;padding:1.2rem 3rem;border:none;border-radius:8px;font-size:1.3rem;font-weight:bold;cursor:pointer;transition:.3s}
         button:hover{background:#e67e22}
-        footer{background:#1a1a1a;color:white;padding:2rem 0;text-align:center}
+        footer{background:#1a1a1a;color:#ccc;padding:3rem 0;text-align:center}
         .footer-content{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;margin-bottom:2rem}
-        .footer-section h4{margin-bottom:1rem;color:#f39c12}
-        .footer-section a{color:#ccc;text-decoration:none;display:block;margin:.5rem 0}
+        .footer-section h4{color:#f39c12;margin-bottom:1rem}
+        .footer-section a{color:#ccc;text-decoration:none}
         .footer-section a:hover{color:#f39c12}
-        .cta-button{display:inline-block;background:#f39c12;color:white;padding:1rem 2rem;text-decoration:none;border-radius:5px;font-weight:bold;transition:background .3s}
+        .cta-button{display:inline-block;background:#f39c12;color:white;padding:1.2rem 2.5rem;border-radius:8px;font-weight:bold;text-decoration:none;margin-top:1rem;transition:.3s}
         .cta-button:hover{background:#e67e22}
         @media (max-width:768px){
             .header-content,.logo-container{flex-direction:column;text-align:center}
             header h1{font-size:2rem}
-            .hero h2{font-size:1.8rem}
+            .hero h2{font-size:2.2rem}
             .form-grid,.about-content{grid-template-columns:1fr}
         }
     </style>
@@ -119,105 +119,4 @@
         <div class="container">
             <h2 class="section-title">Our Services</h2>
             <div class="service-grid">
-                <div class="service-card"><div class="service-icon">Sharp Sand</div><h3>Sharp Sand Supply</h3><p>High-quality sharp sand perfect for construction, concrete mixing, and landscaping projects.</p></div>
-                <div class="service-card"><div class="service-icon">Filling Sand</div><h3>Filling Sand</h3><p>Premium filling sand ideal for land reclamation, foundation work, and site leveling.</p></div>
-                <div class="service-card"><div class="service-icon">Dredger</div><h3>Dredger Rental</h3><p>Professional dredging equipment available for rent.</p></div>
-                <div class="service-card"><div class="service-icon">Delivery Truck</div><h3>Bulk Delivery</h3><p>Reliable transportation and delivery services.</p></div>
-                <div class="service-card"><div class="service-icon">Chart</div><h3>Project Consultation</h3><p>Expert advice on sand requirements for your projects.</p></div>
-                <div class="service-card"><div class="service-icon">Tools</div><h3>Custom Solutions</h3><p>Tailored dredging and supply solutions for large projects.</p></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <h2 class="section-title">Our Work in Action</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item"><img src="dredging-work-1.jpg" alt="Dredging operation"><div class="gallery-caption">Dredging Pipeline Operation</div></div>
-                <div class="gallery-item"><img src="dredging-work-2.jpg" alt="Marine equipment"><div class="gallery-caption">Professional Marine Equipment</div></div>
-                <div class="gallery-item"><img src="dredging-work-3.jpg" alt="Sand extraction"><div class="gallery-caption">Sand Extraction & Processing</div></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">Why Choose AJ Engineering and Marine Services Limited?</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Industry Excellence</h3>
-                    <p>AJ Engineering and Marine Services Limited is your trusted partner for all sand dredging and supply needs in Delta, Nigeria.</p>
-                    <ul>
-                        <li>Licensed and insured operations</li>
-                        <li>Modern dredging equipment</li>
-                        <li>Experienced team of professionals</li>
-                        <li>Competitive pricing</li>
-                        <li>Environmentally responsible practices</li>
-                    </ul>
-                </div>
-                <div class="about-text">
-                    <h3>Our Commitment</h3>
-                    <p>We are dedicated to providing exceptional service to our clients throughout Delta State and beyond.</p>
-                    <ul>
-                        <li>24/7 customer support</li>
-                        <li>Flexible delivery schedules</li>
-                        <li>Quality guaranteed materials</li>
-                        <li>Transparent pricing</li>
-                        <li>Professional consultation services</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FIXED CONTACT FORM WITH GUARANTEED REDIRECT -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
-            <p style="text-align:center;margin-bottom:2rem">Request a quote or inquire about our services. We'll reply within 24 hours.</p>
-
-            <form action="https://formspree.io/f/xpwkpebw" method="POST" data-netlify="true">
-                <div class="form-grid">
-                    <div class="form-group"><label for="name">Full Name *</label><input type="text" id="name" name="name" required></div>
-                    <div class="form-group"><label for="email">Email Address *</label><input type="email" id="email" name="email" required></div>
-                    <div class="form-group"><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required></div>
-                    <div class="form-group">
-                        <label for="service">Service Needed *</label>
-                        <select id="service" name="service" required>
-                            <option value="">Select a service</option>
-                            <option value="sharp-sand">Sharp Sand Supply</option>
-                            <option value="filling-sand">Filling Sand Supply</option>
-                            <option value="dredger-rental">Dredger Rental</option>
-                            <option value="bulk-delivery">Bulk Delivery</option>
-                            <option value="consultation">Project Consultation</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group full-width">
-                        <label for="message">Project Details / Message *</label>
-                        <textarea id="message" name="message" required placeholder="Tell us about your project, quantity needed, location, and any specific requirements..."></textarea>
-                    </div>
-
-                    <!-- THIS LINE GUARANTEES REDIRECT TO YOUR THANK-YOU PAGE -->
-                    <input type="hidden" name="_next" value="https://ajmaritime54-max.github.io/thank-you.html">
-
-                    <div class="form-group full-width" style="text-align:center">
-                        <button type="submit">Submit Request</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section"><h4>AJ Engineering and Marine Services Limited</h4><p>Sand dredging, marine survey, and underwater services in Delta, Nigeria.</p></div>
-                <div class="footer-section"><h4>Quick Links</h4><a href="#services">Services</a><a href="#gallery">Our Work</a><a href="#about">About Us</a><a href="#contact">Contact</a></div>
-                <div class="footer-section"><h4>Contact Info</h4><p>Delta State, Nigeria</p><p>info@ajengineering.com</p><p>09166546932</p></div>
-            </div>
-            <p style="margin-top:2rem;padding-top:2rem;border-top:1px solid #333">© 2024 AJ Engineering and Marine Services Limited. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+                <div class="service-card"><div class="service-icon">Sharp Sand</div><h3>Sharp Sand Supply</h3><p>High-quality sharp sand for concrete & construction​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
