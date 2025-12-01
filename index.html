@@ -540,10 +540,58 @@
             <h2 class="section-title">Get in Touch</h2>
             <p style="text-align: center; margin-bottom: 2rem;">Request a quote or inquire about our services. We'll get back to you within 24 hours.</p>
             
-            <form action<form action="https://formspree.io/f/xpwkpebw" method="POST"> 
-                <input type="hidden" name="_next" value="https://ajmaritime54-max.github.io/ajmaritime54-max.github.io/thank-you.html">
-                <input type="hidden" name="_subject" value="New inquiry from AJ Engineering and Marine Services website">
-                
+                <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p style="text-align: center; margin-bottom: 2rem;">Request a quote or inquire about our services. We'll get back to you within 24 hours.</p>
+            
+            <!-- THIS IS THE ONLY FORM YOU NEED – FULLY WORKING WITH REDIRECT -->
+            <form action="https://formspree.io/f/xpwkpebw" method="POST">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Service Needed *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="sharp-sand">Sharp Sand Supply</option>
+                            <option value="filling-sand">Filling Sand Supply</option>
+                            <option value="dredger-rental">Dredger Rental</option>
+                            <option value="bulk-delivery">Bulk Delivery</option>
+                            <option value="consultation">Project Consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="message">Project Details / Message *</label>
+                        <textarea id="message" name="message" required placeholder="Tell us about your project, quantity needed, location, and any specific requirements..."></textarea>
+                    </div>
+                    
+                    <!-- THIS LINE MAKES YOUR THANK-YOU PAGE APPEAR -->
+                    <input type="hidden" name="_next" value="https://ajmaritime54-max.github.io/thank-you.html" />
+                    
+                    <div class="form-group full-width" style="text-align: center;">
+                        <button type="submit">Submit Request</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</form>
                 <div class="form-grid">
                     <div class="form-group">
                         <label for="name">Full Name *</label>
